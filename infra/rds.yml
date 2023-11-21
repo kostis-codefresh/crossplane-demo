@@ -17,9 +17,9 @@ spec:
     engine: postgres
     engineVersion: "13.7"
     instanceClass: db.t3.micro
-    kmsKeyIdSelector:
-      matchLabels:
-        testing.upbound.io/example-name: sample-key
+    # kmsKeyIdSelector:
+    #   matchLabels:
+    #     testing.upbound.io/example-name: sample-key
     maintenanceWindow: Mon:00:00-Mon:03:00
     name: example
     passwordSecretRef:
