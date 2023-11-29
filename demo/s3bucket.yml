@@ -1,7 +1,7 @@
 apiVersion: s3.aws.upbound.io/v1beta1
 kind: Bucket
 metadata:
-  name: kostis-example-bucket-demo
+  name: kostis-gitopscon-demo
 spec:
   forProvider:
     objectLockEnabled: false
