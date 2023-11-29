@@ -4,7 +4,10 @@ metadata:
   name: kostis-example-bucket-demo
 spec:
   forProvider:
+    objectLockEnabled: true
     region: us-east-2
+    tags:
+      Name: GitOpsCon
   providerConfigRef:
     name: default
 
